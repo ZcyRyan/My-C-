@@ -1,0 +1,12 @@
+D:\Zcy_Work\VSExample\ExcelTCTool\ExcelTCTool\bin\Debug\ExcelTCTool.dll
+D:\Zcy_Work\VSExample\ExcelTCTool\ExcelTCTool\bin\Debug\ExcelTCTool.pdb
+D:\Zcy_Work\VSExample\ExcelTCTool\ExcelTCTool\bin\Debug\ExcelTCTool.dll.manifest
+D:\Zcy_Work\VSExample\ExcelTCTool\ExcelTCTool\bin\Debug\ExcelTCTool.vsto
+D:\Zcy_Work\VSExample\ExcelTCTool\ExcelTCTool\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\Zcy_Work\VSExample\ExcelTCTool\ExcelTCTool\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+D:\Zcy_Work\VSExample\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.Properties.Resources.resources
+D:\Zcy_Work\VSExample\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.TCTool.resources
+D:\Zcy_Work\VSExample\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.csproj.GenerateResource.Cache
+D:\Zcy_Work\VSExample\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.dll
+D:\Zcy_Work\VSExample\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.pdb
+D:\Zcy_Work\VSExample\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.csprojResolveAssemblyReference.cache

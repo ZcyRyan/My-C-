@@ -1,0 +1,8 @@
+D:\Github-net\My-C-\AutoClickForWindows\AutoClickForWindows\bin\Release\AutoClickForWindows.exe
+D:\Github-net\My-C-\AutoClickForWindows\AutoClickForWindows\bin\Release\AutoClickForWindows.pdb
+D:\Github-net\My-C-\AutoClickForWindows\AutoClickForWindows\obj\Release\AutoClickForWindows.AutoMouseClickSettingDialog.resources
+D:\Github-net\My-C-\AutoClickForWindows\AutoClickForWindows\obj\Release\AutoClickForWindows.InputForm.resources
+D:\Github-net\My-C-\AutoClickForWindows\AutoClickForWindows\obj\Release\AutoClickForWindows.Properties.Resources.resources
+D:\Github-net\My-C-\AutoClickForWindows\AutoClickForWindows\obj\Release\AutoClickForWindows.csproj.GenerateResource.Cache
+D:\Github-net\My-C-\AutoClickForWindows\AutoClickForWindows\obj\Release\AutoClickForWindows.exe
+D:\Github-net\My-C-\AutoClickForWindows\AutoClickForWindows\obj\Release\AutoClickForWindows.pdb

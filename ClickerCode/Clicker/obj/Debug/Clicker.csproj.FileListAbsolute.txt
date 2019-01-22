@@ -1,0 +1,9 @@
+C:\Users\chenyanz\Desktop\ClickerCode\Clicker\bin\Debug\Clicker.exe
+C:\Users\chenyanz\Desktop\ClickerCode\Clicker\bin\Debug\Clicker.pdb
+C:\Users\chenyanz\Desktop\ClickerCode\Clicker\obj\Debug\Clicker.csprojResolveAssemblyReference.cache
+C:\Users\chenyanz\Desktop\ClickerCode\Clicker\obj\Debug\Clicker.EditWin.resources
+C:\Users\chenyanz\Desktop\ClickerCode\Clicker\obj\Debug\Clicker.MainForm.resources
+C:\Users\chenyanz\Desktop\ClickerCode\Clicker\obj\Debug\Clicker.Properties.Resources.resources
+C:\Users\chenyanz\Desktop\ClickerCode\Clicker\obj\Debug\Clicker.csproj.GenerateResource.Cache
+C:\Users\chenyanz\Desktop\ClickerCode\Clicker\obj\Debug\Clicker.exe
+C:\Users\chenyanz\Desktop\ClickerCode\Clicker\obj\Debug\Clicker.pdb

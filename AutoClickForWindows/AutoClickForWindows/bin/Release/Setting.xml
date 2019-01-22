@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMouseActionEntity xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MouseActionEntity>
+    <ActionNo>1</ActionNo>
+    <X>1130</X>
+    <Y>75</Y>
+    <Comment>NV download</Comment>
+    <Interval>1</Interval>
+    <DisplayType>Left Click</DisplayType>
+    <Type>click</Type>
+  </MouseActionEntity>
+  <MouseActionEntity>
+    <ActionNo>2</ActionNo>
+    <X>612</X>
+    <Y>476</Y>
+    <Comment>Check runtime</Comment>
+    <Interval>2</Interval>
+    <DisplayType>Left Click</DisplayType>
+    <Type>click</Type>
+  </MouseActionEntity>
+  <MouseActionEntity>
+    <ActionNo>3</ActionNo>
+    <X>874</X>
+    <Y>751</Y>
+    <Comment>download click</Comment>
+    <Interval>2</Interval>
+    <DisplayType>Left Click</DisplayType>
+    <Type>click</Type>
+  </MouseActionEntity>
+  <MouseActionEntity>
+    <ActionNo>4</ActionNo>
+    <X>835</X>
+    <Y>586</Y>
+    <Comment>download warning forcibly</Comment>
+    <Interval>2</Interval>
+    <DisplayType>Left Click</DisplayType>
+    <Type>click</Type>
+  </MouseActionEntity>
+  <MouseActionEntity>
+    <ActionNo>5</ActionNo>
+    <X>869</X>
+    <Y>578</Y>
+    <Comment>Continue?</Comment>
+    <Interval>5</Interval>
+    <DisplayType>Left Click</DisplayType>
+    <Type>click</Type>
+  </MouseActionEntity>
+  <MouseActionEntity>
+    <ActionNo>6</ActionNo>
+    <X>855</X>
+    <Y>585</Y>
+    <Comment>down load complete</Comment>
+    <Interval>100</Interval>
+    <DisplayType>Left Click</DisplayType>
+    <Type>click</Type>
+  </MouseActionEntity>
+  <MouseActionEntity>
+    <ActionNo>7</ActionNo>
+    <X>827</X>
+    <Y>647</Y>
+    <Comment>close</Comment>
+    <Interval>10</Interval>
+    <DisplayType>Left Click</DisplayType>
+    <Type>click</Type>
+  </MouseActionEntity>
+</ArrayOfMouseActionEntity>

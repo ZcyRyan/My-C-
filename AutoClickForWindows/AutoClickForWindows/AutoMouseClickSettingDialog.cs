@@ -16,6 +16,7 @@ namespace AutoClickForWindows
         private SynchronizationContext context = null;
         private ClickType clickType = ClickType.click;
         private BindingList<MouseActionEntity> mouseInfoList = new BindingList<MouseActionEntity>();
+        private int RunCount = 0;
 
         public AutoMouseClickSettingDialog()
         {
@@ -24,28 +25,6 @@ namespace AutoClickForWindows
             KeyPreview = true;
             this.dgvClickInfo.DataSource = mouseInfoList;
             this.numM.Value = 8;
-        }
-
-        /// <summary>
-        /// ProcesscmdKey F1 is press or not
-        /// </summary>
-        /// <param name="msg">Windows Message</param>
-        /// <param name="keyData">Key Information</param>
-        /// <returns>True, False</returns>
-        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
-        {
-            bool result = true;
-            //Click F1 button
-            if (keyData == Keys.Escape && timer != null && timer.Enabled)
-            {
-                timer.Stop();
-                timer.Dispose();
-            }
-            else
-            {
-                result = base.ProcessCmdKey(ref msg, keyData);
-            }
-            return result;
         }
 
         private void AutoMouseClickSetting_KeyDown(object sender, KeyEventArgs e)
@@ -144,6 +123,7 @@ namespace AutoClickForWindows
         {
             try
             {
+                RunCount++;
                 foreach (MouseActionEntity action in mouseInfoList)
                 {
                     if (action.Type.Equals(ClickType.SendKeys))
@@ -157,6 +137,7 @@ namespace AutoClickForWindows
                         //ThreadPool.QueueUserWorkItem(new WaitCallback(WorkClick), action);
                     }
                 }
+                Logger.WriteLog("all action is over! Time: " + RunCount.ToString());
             }
             catch (Exception ex)
             {

@@ -41,7 +41,7 @@
     <X>869</X>
     <Y>578</Y>
     <Comment>Continue?</Comment>
-    <Interval>5</Interval>
+    <Interval>3</Interval>
     <DisplayType>Left Click</DisplayType>
     <Type>click</Type>
   </MouseActionEntity>
@@ -59,7 +59,7 @@
     <X>827</X>
     <Y>647</Y>
     <Comment>close</Comment>
-    <Interval>10</Interval>
+    <Interval>3</Interval>
     <DisplayType>Left Click</DisplayType>
     <Type>click</Type>
   </MouseActionEntity>

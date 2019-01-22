@@ -10,3 +10,17 @@ D:\Zcy_Work\VSExample\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.csproj.Gener
 D:\Zcy_Work\VSExample\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.dll
 D:\Zcy_Work\VSExample\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.pdb
 D:\Zcy_Work\VSExample\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.csprojResolveAssemblyReference.cache
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\bin\Debug\ExcelTCTool.dll
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\bin\Debug\ExcelTCTool.pdb
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\bin\Debug\ExcelTCTool.dll.manifest
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\bin\Debug\ExcelTCTool.vsto
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.csprojResolveAssemblyReference.cache
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.Properties.Resources.resources
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.Result.resources
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.NotFind.resources
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.TCTool.resources
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.csproj.GenerateResource.Cache
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.dll
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\obj\Debug\ExcelTCTool.pdb

@@ -1,0 +1,14 @@
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\bin\Release\ExcelTCTool.dll
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\bin\Release\ExcelTCTool.pdb
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\bin\Release\ExcelTCTool.dll.manifest
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\bin\Release\ExcelTCTool.vsto
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\obj\Release\ExcelTCTool.Properties.Resources.resources
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\obj\Release\ExcelTCTool.Result.resources
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\obj\Release\ExcelTCTool.NotFind.resources
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\obj\Release\ExcelTCTool.TCTool.resources
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\obj\Release\ExcelTCTool.csproj.GenerateResource.Cache
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\obj\Release\ExcelTCTool.dll
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\obj\Release\ExcelTCTool.pdb
+D:\Github-net\My-C-\ExcelTCTool\ExcelTCTool\obj\Release\ExcelTCTool.csprojResolveAssemblyReference.cache

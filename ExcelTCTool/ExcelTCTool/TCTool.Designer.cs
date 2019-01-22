@@ -38,6 +38,7 @@
             this.grp1 = this.Factory.CreateRibbonGroup();
             this.btnSetTC = this.Factory.CreateRibbonButton();
             this.button1 = this.Factory.CreateRibbonButton();
+            this.chkSRS = this.Factory.CreateRibbonButton();
             this.tab1.SuspendLayout();
             this.grp1.SuspendLayout();
             // 
@@ -52,6 +53,7 @@
             // 
             this.grp1.Items.Add(this.btnSetTC);
             this.grp1.Items.Add(this.button1);
+            this.grp1.Items.Add(this.chkSRS);
             this.grp1.Label = "ZcyTool";
             this.grp1.Name = "grp1";
             // 
@@ -66,6 +68,12 @@
             this.button1.Label = "SetCellNum";
             this.button1.Name = "button1";
             this.button1.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button1_Click);
+            // 
+            // chkSRS
+            // 
+            this.chkSRS.Label = "Check SRS Number";
+            this.chkSRS.Name = "chkSRS";
+            this.chkSRS.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.chkSRS_Click);
             // 
             // TCTool
             // 
@@ -86,6 +94,7 @@
         internal Microsoft.Office.Tools.Ribbon.RibbonGroup grp1;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnSetTC;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton button1;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton chkSRS;
     }
 
     partial class ThisRibbonCollection

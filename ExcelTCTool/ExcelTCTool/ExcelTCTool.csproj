@@ -99,6 +99,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
     <DefineConstants>$(DefineConstants);DEBUG;TRACE</DefineConstants>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <!--
     This section defines properties that are set when the "Release" configuration is selected.
@@ -187,6 +188,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Result.resx">
+      <DependentUpon>Result.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SRSWindow.resx">
+      <DependentUpon>SRSWindow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TCTool.resx">
       <DependentUpon>TCTool.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,6 +205,18 @@
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Result.Designer.cs">
+      <DependentUpon>Result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SRSWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SRSWindow.Designer.cs">
+      <DependentUpon>SRSWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="TCTool.cs">
       <SubType>Component</SubType>

@@ -1,0 +1,8 @@
+D:\Github-net\My-C-\GetAppMemoryUsage\GetAppMemoryUsage\bin\Debug\GetAppMemoryUsage.exe
+D:\Github-net\My-C-\GetAppMemoryUsage\GetAppMemoryUsage\bin\Debug\GetAppMemoryUsage.pdb
+D:\Github-net\My-C-\GetAppMemoryUsage\GetAppMemoryUsage\obj\Debug\GetAppMemoryUsage.csprojResolveAssemblyReference.cache
+D:\Github-net\My-C-\GetAppMemoryUsage\GetAppMemoryUsage\obj\Debug\GetAppMemoryUsage.Form1.resources
+D:\Github-net\My-C-\GetAppMemoryUsage\GetAppMemoryUsage\obj\Debug\GetAppMemoryUsage.Properties.Resources.resources
+D:\Github-net\My-C-\GetAppMemoryUsage\GetAppMemoryUsage\obj\Debug\GetAppMemoryUsage.csproj.GenerateResource.Cache
+D:\Github-net\My-C-\GetAppMemoryUsage\GetAppMemoryUsage\obj\Debug\GetAppMemoryUsage.exe
+D:\Github-net\My-C-\GetAppMemoryUsage\GetAppMemoryUsage\obj\Debug\GetAppMemoryUsage.pdb

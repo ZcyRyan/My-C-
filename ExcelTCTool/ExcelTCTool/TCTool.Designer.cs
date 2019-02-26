@@ -39,13 +39,18 @@
             this.btnSetTC = this.Factory.CreateRibbonButton();
             this.button1 = this.Factory.CreateRibbonButton();
             this.chkSRS = this.Factory.CreateRibbonButton();
+            this.grp2 = this.Factory.CreateRibbonGroup();
+            this.btnCheckSRS = this.Factory.CreateRibbonButton();
+            this.btnNewSRS = this.Factory.CreateRibbonButton();
             this.tab1.SuspendLayout();
             this.grp1.SuspendLayout();
+            this.grp2.SuspendLayout();
             // 
             // tab1
             // 
             this.tab1.ControlId.ControlIdType = Microsoft.Office.Tools.Ribbon.RibbonControlIdType.Office;
             this.tab1.Groups.Add(this.grp1);
+            this.tab1.Groups.Add(this.grp2);
             this.tab1.Label = "TabAddIns";
             this.tab1.Name = "tab1";
             // 
@@ -75,6 +80,25 @@
             this.chkSRS.Name = "chkSRS";
             this.chkSRS.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.chkSRS_Click);
             // 
+            // grp2
+            // 
+            this.grp2.Items.Add(this.btnCheckSRS);
+            this.grp2.Items.Add(this.btnNewSRS);
+            this.grp2.Label = "Detail Design";
+            this.grp2.Name = "grp2";
+            // 
+            // btnCheckSRS
+            // 
+            this.btnCheckSRS.Label = "Check SRS overlap";
+            this.btnCheckSRS.Name = "btnCheckSRS";
+            this.btnCheckSRS.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnCheckSRS_Click);
+            // 
+            // btnNewSRS
+            // 
+            this.btnNewSRS.Label = "New SRS";
+            this.btnNewSRS.Name = "btnNewSRS";
+            this.btnNewSRS.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnNewSRS_Click);
+            // 
             // TCTool
             // 
             this.Name = "TCTool";
@@ -85,6 +109,8 @@
             this.tab1.PerformLayout();
             this.grp1.ResumeLayout(false);
             this.grp1.PerformLayout();
+            this.grp2.ResumeLayout(false);
+            this.grp2.PerformLayout();
 
         }
 
@@ -95,6 +121,9 @@
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnSetTC;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton button1;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton chkSRS;
+        internal Microsoft.Office.Tools.Ribbon.RibbonGroup grp2;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton btnCheckSRS;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton btnNewSRS;
     }
 
     partial class ThisRibbonCollection

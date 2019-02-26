@@ -60,7 +60,7 @@ namespace ExcelTCTool
                                 CaseNo = Convert.ToInt16(val.Substring(val.Length - 3, 3));
                                 caseHeader = val.Substring(0, val.Length - 3);
                             }
-                            BsetFirst = true;     
+                            BsetFirst = true;
                         }
 
                         sheet.Cells[i, TC_CASENO_COLUMN].value = caseHeader
@@ -189,7 +189,8 @@ namespace ExcelTCTool
                             }
                             else
                             {
-                                if (isSRSNumberLine(value))
+                                int id;
+                                if (isSRSNumberLine(value, out id))
                                 {
                                     if (InputToFindSRS.Any(s => isSameSRS(s, value)))
                                     {  //Exists
@@ -246,20 +247,28 @@ namespace ExcelTCTool
             return (number1 == number2);
         }
 
-        private bool isSRSNumberLine(string value)
+        private bool isSRSNumberLine(string value, out int id)
         {
-            int r = 0;
-            string ret = value.Trim().Replace("SRS-", string.Empty);
-            return int.TryParse(ret, out r);
+            id = 0;
+            if (value.Contains("SRS") || value.Contains("srs"))
+            {
+                string ret = value.Trim().Replace("SRS-", string.Empty);
+                return int.TryParse(ret, out id);
+            }
+            else
+            {
+                return false;
+            }
         }
 
         private void AddRangeSRSToList(string value, ref List<string> srsList)
         {
             srsList = new List<string>();
             var values = value.Split(Environment.NewLine.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+            int id = 0;
             foreach(var str in values)
             {
-                if (!str.Contains(RANGE_FLAG) && isSRSNumberLine(str))
+                if (!str.Contains(RANGE_FLAG) && isSRSNumberLine(str, out id))
                 {
                     srsList.Add(str.Trim());
                 }
@@ -322,7 +331,7 @@ namespace ExcelTCTool
             return "SRS-" + num.ToString().PadLeft(length, '0');
         }
 
-        private int FindSRSColumnNumber(Worksheet sheet, int maxRow)
+        private int FindSRSColumnNumber(Worksheet sheet, int maxRow, bool isDesign = false)
         {
             int findCol = -1;
             if (maxRow > 6)
@@ -351,8 +360,111 @@ namespace ExcelTCTool
                 }
             }
             //Default E column
-            findCol = findCol >= 0 ? findCol : SRS_Column;
+            int defaultCol = isDesign ? SRS_Column - 1 : SRS_Column;
+            findCol = findCol >= 0 ? findCol : defaultCol;
             return findCol;
+        }
+
+        /// <summary>
+        /// Check detail design same srs
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnCheckSRS_Click(object sender, RibbonControlEventArgs e)
+        {
+            sheet = Globals.ThisAddIn.Application.ActiveWorkbook.ActiveSheet;
+            int MaxRow = ((Range)(sheet.Cells[sheet.Rows.Count, TC_CASENO_COLUMN]))
+                         .End[Microsoft.Office.Interop.Excel.XlDirection.xlUp].Row;
+            int srsCol = FindSRSColumnNumber(sheet, MaxRow, true);
+            List<DesignSRS> srsNumberLst = new List<DesignSRS>();
+            for (int i = 1; i <= MaxRow; i++)
+            {
+                string value = Convert.ToString(((Range)sheet.Cells[i, srsCol]).Value) ?? string.Empty;
+                int id = 0;
+                if (isSRSNumberLine(value, out id))
+                {
+                    srsNumberLst.Add(new DesignSRS()
+                    {
+                        ID = id,
+                        RowID = i
+                    });
+                }
+            }
+
+            var list = srsNumberLst.GroupBy(x => x.ID).Where(g => g.Count() > 1).ToList();
+            srsNumberLst.Clear();
+            foreach (var item in list)
+            {
+                srsNumberLst.AddRange(item.Select(d => d).ToList());
+            }
+            StringBuilder bd = new StringBuilder();
+            if (srsNumberLst.Count > 0)
+            {
+                foreach (var srs in srsNumberLst)
+                {
+                    bd.AppendLine(srs.ToString());
+                }
+                MessageBox.Show(bd.ToString());
+            }
+            else
+            {
+                MessageBox.Show("No same SRS number!");
+            }
+        }
+
+        private void btnNewSRS_Click(object sender, RibbonControlEventArgs e)
+        {
+            sheet = Globals.ThisAddIn.Application.ActiveWorkbook.ActiveSheet;
+            int MaxRow = ((Range)(sheet.Cells[sheet.Rows.Count, TC_CASENO_COLUMN]))
+                         .End[Microsoft.Office.Interop.Excel.XlDirection.xlUp].Row;
+            int srsCol = FindSRSColumnNumber(sheet, MaxRow, true);
+            List<DesignSRS> srsNumberLst = new List<DesignSRS>();
+            for (int i = 1; i <= MaxRow; i++)
+            {
+                string value = Convert.ToString(((Range)sheet.Cells[i, srsCol]).Value) ?? string.Empty;
+                int id = 0;
+                if (isSRSNumberLine(value, out id))
+                {
+                    srsNumberLst.Add(new DesignSRS()
+                    {
+                        ID = id,
+                        RowID = i
+                    });
+                }
+            }
+            int maxID = srsNumberLst.Max(s => s.ID);
+            string startSRS = AddSRSNum("SRS-" + maxID.ToString().PadLeft(4, '0'));
+            //Version column
+            int colVersion = srsCol - 1;
+            //Update new max row
+            for (int i = 1; i <= MaxRow; i++)
+            {
+                string value = Convert.ToString(((Range)sheet.Cells[i, colVersion]).Value) ?? string.Empty;
+                string srsValue = Convert.ToString(((Range)sheet.Cells[i, srsCol]).Value) ?? string.Empty;
+                if (!string.IsNullOrEmpty(value) && string.IsNullOrEmpty(srsValue))
+                {
+                    ((Range)sheet.Cells[i, srsCol]).Value = startSRS;
+                    //Add one
+                    startSRS = AddSRSNum(startSRS);
+                }
+            }
+
+            for (int i = 1; i <= MaxRow; i++)
+            {
+                string value = Convert.ToString(((Range)sheet.Cells[i, srsCol]).Value) ?? string.Empty;
+                int id = 0;
+                if (isSRSNumberLine(value, out id))
+                {
+                    srsNumberLst.Add(new DesignSRS()
+                    {
+                        ID = id,
+                        RowID = i
+                    });
+                }
+            }
+            maxID = srsNumberLst.Max(s => s.ID);
+            //Set maxid
+            ((Range)sheet.Cells[2, srsCol]).Value = maxID;
         }
     }
 }

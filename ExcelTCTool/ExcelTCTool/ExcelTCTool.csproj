@@ -176,6 +176,7 @@
     can be found.
   -->
   <ItemGroup>
+    <Compile Include="CommonClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

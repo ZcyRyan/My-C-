@@ -1,0 +1,12 @@
+D:\Zcy_Work\VSExample\LockFile\LockFile\bin\Debug\LockFile.exe.config
+D:\Zcy_Work\VSExample\LockFile\LockFile\bin\Debug\LockFile.exe
+D:\Zcy_Work\VSExample\LockFile\LockFile\bin\Debug\LockFile.pdb
+D:\Zcy_Work\VSExample\LockFile\LockFile\obj\Debug\LockFile.csprojResolveAssemblyReference.cache
+D:\Zcy_Work\VSExample\LockFile\LockFile\obj\Debug\LockFile.Form1.resources
+D:\Zcy_Work\VSExample\LockFile\LockFile\obj\Debug\LockFile.Properties.Resources.resources
+D:\Zcy_Work\VSExample\LockFile\LockFile\obj\Debug\LockFile.csproj.GenerateResource.Cache
+D:\Zcy_Work\VSExample\LockFile\LockFile\obj\Debug\LockFile.exe
+D:\Zcy_Work\VSExample\LockFile\LockFile\obj\Debug\LockFile.pdb
+D:\ZcyWork\VSExample\LockFile\LockFile\bin\Debug\LockFile.exe.config
+D:\ZcyWork\VSExample\LockFile\LockFile\obj\Debug\LockFile.exe
+D:\ZcyWork\VSExample\LockFile\LockFile\obj\Debug\LockFile.pdb

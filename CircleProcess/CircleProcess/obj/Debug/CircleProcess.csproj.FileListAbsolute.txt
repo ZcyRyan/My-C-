@@ -1,0 +1,24 @@
+D:\ZcyWork\VSExample\CircleProcess\CircleProcess\bin\Debug\CircleProcess.exe.config
+D:\ZcyWork\VSExample\CircleProcess\CircleProcess\bin\Debug\CircleProcess.exe
+D:\ZcyWork\VSExample\CircleProcess\CircleProcess\bin\Debug\CircleProcess.pdb
+D:\ZcyWork\VSExample\CircleProcess\CircleProcess\obj\Debug\CircleProcess.csprojResolveAssemblyReference.cache
+D:\ZcyWork\VSExample\CircleProcess\CircleProcess\obj\Debug\CircleProcess.Properties.Resources.resources
+D:\ZcyWork\VSExample\CircleProcess\CircleProcess\obj\Debug\CircleProcess.csproj.GenerateResource.Cache
+D:\ZcyWork\VSExample\CircleProcess\CircleProcess\obj\Debug\CircleProcess.exe
+D:\ZcyWork\VSExample\CircleProcess\CircleProcess\obj\Debug\CircleProcess.pdb
+D:\ZcyWork\VSExample\CircleProcess\CircleProcess\obj\Debug\CircleProcess.Form1.resources
+D:\ZcyWork\VSExample\CircleProcess\CircleProcess\bin\Debug\ProgressControls.dll
+D:\ZcyWork\VSExample\CircleProcess\CircleProcess\bin\Debug\ProgressControls.pdb
+D:\ZcyWork\VSExample\CircleProcess\CircleProcess\bin\Debug\ProgressControls.xml
+D:\Git Repository\My-C-\CircleProcess\CircleProcess\bin\Debug\CircleProcess.exe.config
+D:\Git Repository\My-C-\CircleProcess\CircleProcess\obj\Debug\CircleProcess.exe
+D:\Git Repository\My-C-\CircleProcess\CircleProcess\obj\Debug\CircleProcess.pdb
+D:\Git Repository\My-C-\CircleProcess\CircleProcess\bin\Debug\CircleProcess.exe
+D:\Git Repository\My-C-\CircleProcess\CircleProcess\bin\Debug\CircleProcess.pdb
+D:\Git Repository\My-C-\CircleProcess\CircleProcess\bin\Debug\ProgressControls.dll
+D:\Git Repository\My-C-\CircleProcess\CircleProcess\bin\Debug\ProgressControls.pdb
+D:\Git Repository\My-C-\CircleProcess\CircleProcess\bin\Debug\ProgressControls.xml
+D:\Git Repository\My-C-\CircleProcess\CircleProcess\obj\Debug\CircleProcess.csprojResolveAssemblyReference.cache
+D:\Git Repository\My-C-\CircleProcess\CircleProcess\obj\Debug\CircleProcess.Form1.resources
+D:\Git Repository\My-C-\CircleProcess\CircleProcess\obj\Debug\CircleProcess.Properties.Resources.resources
+D:\Git Repository\My-C-\CircleProcess\CircleProcess\obj\Debug\CircleProcess.csproj.GenerateResource.Cache

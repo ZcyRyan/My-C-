@@ -1,0 +1,9 @@
+D:\ZcyWork\VSExample\ZeroTierOneApp\ZeroTierOneApp\bin\Debug\ZeroTierOneApp.exe.config
+D:\ZcyWork\VSExample\ZeroTierOneApp\ZeroTierOneApp\bin\Debug\ZeroTierOneApp.exe
+D:\ZcyWork\VSExample\ZeroTierOneApp\ZeroTierOneApp\bin\Debug\ZeroTierOneApp.pdb
+D:\ZcyWork\VSExample\ZeroTierOneApp\ZeroTierOneApp\obj\Debug\ZeroTierOneApp.csprojResolveAssemblyReference.cache
+D:\ZcyWork\VSExample\ZeroTierOneApp\ZeroTierOneApp\obj\Debug\ZeroTierOneApp.Form1.resources
+D:\ZcyWork\VSExample\ZeroTierOneApp\ZeroTierOneApp\obj\Debug\ZeroTierOneApp.Properties.Resources.resources
+D:\ZcyWork\VSExample\ZeroTierOneApp\ZeroTierOneApp\obj\Debug\ZeroTierOneApp.csproj.GenerateResource.Cache
+D:\ZcyWork\VSExample\ZeroTierOneApp\ZeroTierOneApp\obj\Debug\ZeroTierOneApp.exe
+D:\ZcyWork\VSExample\ZeroTierOneApp\ZeroTierOneApp\obj\Debug\ZeroTierOneApp.pdb

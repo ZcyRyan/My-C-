@@ -1,7 +1,0 @@
-D:\Download\ProgressIndicator1.2_source\ProgressIndicator\ProgressIndicator\bin\Debug\ProgressControls.xml
-D:\Download\ProgressIndicator1.2_source\ProgressIndicator\ProgressIndicator\bin\Debug\ProgressControls.dll
-D:\Download\ProgressIndicator1.2_source\ProgressIndicator\ProgressIndicator\bin\Debug\ProgressControls.pdb
-D:\Download\ProgressIndicator1.2_source\ProgressIndicator\ProgressIndicator\obj\Debug\ProgressControls.ProgressIndicator.resources
-D:\Download\ProgressIndicator1.2_source\ProgressIndicator\ProgressIndicator\obj\Debug\ProgressIndicator.csproj.GenerateResource.Cache
-D:\Download\ProgressIndicator1.2_source\ProgressIndicator\ProgressIndicator\obj\Debug\ProgressControls.dll
-D:\Download\ProgressIndicator1.2_source\ProgressIndicator\ProgressIndicator\obj\Debug\ProgressControls.pdb

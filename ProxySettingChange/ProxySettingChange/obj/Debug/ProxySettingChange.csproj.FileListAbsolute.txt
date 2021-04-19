@@ -1,0 +1,8 @@
+D:\ZcyWork\VSExample\ProxySettingChange\ProxySettingChange\obj\Debug\ProxySettingChange.csprojResolveAssemblyReference.cache
+D:\ZcyWork\VSExample\ProxySettingChange\ProxySettingChange\obj\Debug\ProxySettingChange.Form1.resources
+D:\ZcyWork\VSExample\ProxySettingChange\ProxySettingChange\obj\Debug\ProxySettingChange.Properties.Resources.resources
+D:\ZcyWork\VSExample\ProxySettingChange\ProxySettingChange\obj\Debug\ProxySettingChange.csproj.GenerateResource.Cache
+D:\ZcyWork\VSExample\ProxySettingChange\ProxySettingChange\bin\Debug\ProxySettingChange.exe
+D:\ZcyWork\VSExample\ProxySettingChange\ProxySettingChange\bin\Debug\ProxySettingChange.pdb
+D:\ZcyWork\VSExample\ProxySettingChange\ProxySettingChange\obj\Debug\ProxySettingChange.exe
+D:\ZcyWork\VSExample\ProxySettingChange\ProxySettingChange\obj\Debug\ProxySettingChange.pdb

@@ -1,0 +1,25 @@
+D:\ZcyWork\VSExample\SSHNetSample\SSHNetSample\bin\Debug\SSHNetSample.exe
+D:\ZcyWork\VSExample\SSHNetSample\SSHNetSample\bin\Debug\SSHNetSample.pdb
+D:\ZcyWork\VSExample\SSHNetSample\SSHNetSample\bin\Debug\Renci.SshNet.dll
+D:\ZcyWork\VSExample\SSHNetSample\SSHNetSample\bin\Debug\Renci.SshNet.xml
+D:\ZcyWork\VSExample\SSHNetSample\SSHNetSample\obj\Debug\SSHNetSample.csprojResolveAssemblyReference.cache
+D:\ZcyWork\VSExample\SSHNetSample\SSHNetSample\obj\Debug\SSHNetSample.Form1.resources
+D:\ZcyWork\VSExample\SSHNetSample\SSHNetSample\obj\Debug\SSHNetSample.Properties.Resources.resources
+D:\ZcyWork\VSExample\SSHNetSample\SSHNetSample\obj\Debug\SSHNetSample.csproj.GenerateResource.Cache
+D:\ZcyWork\VSExample\SSHNetSample\SSHNetSample\obj\Debug\SSHNetSample.exe
+D:\ZcyWork\VSExample\SSHNetSample\SSHNetSample\obj\Debug\SSHNetSample.pdb
+D:\ZcyWork\My Tasks\20201027_SSH linux\20200805_Linux Support SSH\SSHNetSample\SSHNetSample\bin\Debug\SSHNetSample.exe.config
+D:\ZcyWork\My Tasks\20201027_SSH linux\20200805_Linux Support SSH\SSHNetSample\SSHNetSample\bin\Debug\SSHNetSample.exe
+D:\ZcyWork\My Tasks\20201027_SSH linux\20200805_Linux Support SSH\SSHNetSample\SSHNetSample\bin\Debug\SSHNetSample.pdb
+D:\ZcyWork\My Tasks\20201027_SSH linux\20200805_Linux Support SSH\SSHNetSample\SSHNetSample\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\ZcyWork\My Tasks\20201027_SSH linux\20200805_Linux Support SSH\SSHNetSample\SSHNetSample\bin\Debug\Renci.SshNet.dll
+D:\ZcyWork\My Tasks\20201027_SSH linux\20200805_Linux Support SSH\SSHNetSample\SSHNetSample\bin\Debug\Renci.SshNet.xml
+D:\ZcyWork\My Tasks\20201027_SSH linux\20200805_Linux Support SSH\SSHNetSample\SSHNetSample\obj\Debug\SSHNetSample.Form1.resources
+D:\ZcyWork\My Tasks\20201027_SSH linux\20200805_Linux Support SSH\SSHNetSample\SSHNetSample\obj\Debug\SSHNetSample.Form2.resources
+D:\ZcyWork\My Tasks\20201027_SSH linux\20200805_Linux Support SSH\SSHNetSample\SSHNetSample\obj\Debug\SSHNetSample.Properties.Resources.resources
+D:\ZcyWork\My Tasks\20201027_SSH linux\20200805_Linux Support SSH\SSHNetSample\SSHNetSample\obj\Debug\SSHNetSample.csproj.GenerateResource.Cache
+D:\ZcyWork\My Tasks\20201027_SSH linux\20200805_Linux Support SSH\SSHNetSample\SSHNetSample\obj\Debug\SSHNetSample.exe
+D:\ZcyWork\My Tasks\20201027_SSH linux\20200805_Linux Support SSH\SSHNetSample\SSHNetSample\obj\Debug\SSHNetSample.pdb
+D:\ZcyWork\My Tasks\20201027_SSH linux\20200805_Linux Support SSH\SSHNetSample\SSHNetSample\bin\Debug\websocket-sharp.clone.dll
+D:\ZcyWork\My Tasks\20201027_SSH linux\20200805_Linux Support SSH\SSHNetSample\SSHNetSample\bin\Debug\websocket-sharp.clone.xml
+D:\ZcyWork\My Tasks\20201027_SSH linux\20200805_Linux Support SSH\SSHNetSample\SSHNetSample\obj\Debug\SSHNetSample.csprojResolveAssemblyReference.cache

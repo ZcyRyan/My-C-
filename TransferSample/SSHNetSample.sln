@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSHNetSample", "SSHNetSample\SSHNetSample.csproj", "{6B65D5AF-C4BD-420E-8E2B-4F952F7A05B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B65D5AF-C4BD-420E-8E2B-4F952F7A05B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B65D5AF-C4BD-420E-8E2B-4F952F7A05B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B65D5AF-C4BD-420E-8E2B-4F952F7A05B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B65D5AF-C4BD-420E-8E2B-4F952F7A05B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
